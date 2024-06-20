@@ -18,3 +18,15 @@ From the columns, we see a category_id column, which indicates an association wi
 
 # Step 4: Use ActiveRecord to Find and Print Out Required Information
 We'll add code to find and print out the total number of products, names of all products above $10 with names starting with 'C', and the total number of products with a low stock quantity.
+There are 77 products in the products table.
+Products above $10 with names starting with 'C':
+Chai
+Chang
+Chef Anton's Cajun Seasoning
+Chef Anton's Gumbo Mix
+Carnarvon Tigers
+Côte de Blaye
+Chartreuse verte
+Chocolade
+Camembert Pierrot
+There are 8 products with a low stock quantity.
