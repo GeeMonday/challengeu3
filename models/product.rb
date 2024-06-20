@@ -8,4 +8,4 @@ class Product < ActiveRecord::Base
 # The products table has a category_id foreign key.
 # In other words, a product belongs to a category.
   belongs_to :category
-end
+end 
