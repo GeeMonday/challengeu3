@@ -1,5 +1,7 @@
 require_relative 'ar.rb'
 
-number_of_products = Product.count
+# Retrieve any product from the database
+product = Product.first
 
-puts "There are #{number_of_products} in the products table."
+# Print out the attributes of the product
+puts product.attributes
