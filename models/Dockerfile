@@ -3,7 +3,7 @@ FROM ruby:2.3.4
 
 # Set environment variables
 ENV RAILS_ENV=development \
-    RAILS_ROOT=/app
+    RAILS_ROOT=/workspaces/Active-Record-Challenge/models
 
 # Set working directory
 WORKDIR $RAILS_ROOT
