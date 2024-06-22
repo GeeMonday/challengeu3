@@ -5,7 +5,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - .:/app
+      - './:/workspaces/Active-Record-Challenge/models'
     depends_on:
       - db
     environment:
